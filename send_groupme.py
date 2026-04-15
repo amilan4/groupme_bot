@@ -30,10 +30,10 @@ print("Birthdays found:", birthday_people)
 # If there are birthdays, send message
 if birthday_people:
     if len(birthday_people) == 1:
-        message = f"🎉 Happy Birthday {birthday_people[0]}!"
+        message = f"Happy Birthday {birthday_people[0]}! 🎉 "
     else:
         names = ", ".join(birthday_people[:-1]) + f" and {birthday_people[-1]}"
-        message = f"🎉 Happy Birthday {names}!"
+        message = f"Happy Birthday {names}! 🎉 "
 
     print("Sending message:", message)
 
