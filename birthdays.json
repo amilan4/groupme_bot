@@ -1,6 +1,4 @@
 [
-  { "name": "Ava", "date": "04-15" },
-  { "name": "Jaydalen", "date": "04-15" },
   { "name": "Samiha", "date": "10-31" },
   { "name": "Yoomin", "date": "12-27" },
   { "name": "Vihan", "date": "01-22" },
@@ -30,5 +28,16 @@
   { "name": "Jiya", "date": "05-28" },
   { "name": "Ygghyvonne", "date": "12-24" },
   { "name": "Grace", "date": "04-07" },
-  { "name": "Reena", "date": "01-03" }
+  { "name": "Reena", "date": "01-03" },
+  { "name": "Easton", "date": "10-24" },
+  { "name": "Matthew", "date": "06-03" },
+  { "name": "Peter", "date": "07-27" },
+  { "name": "Santiago", "date": "03-22" },
+  { "name": "Aisha", "date": "11-21" },
+  { "name": "Zach", "date": "06-03" },
+  { "name": "Arshitha", "date": "12-13" },
+  { "name": "Sara", "date": "10-26" },
+  { "name": "Sophia", "date": "03-29" },
+  { "name": "Jorge", "date": "03-04" },
+  { "name": "Meem", "date": "04-03" }
 ]
