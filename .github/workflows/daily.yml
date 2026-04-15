@@ -2,8 +2,8 @@ name: Birthday Bot
 
 on:
   schedule:
-    - cron: "0 16 * * *"   # runs daily (UTC time)
-  workflow_dispatch:       # lets you click "Run workflow" manually
+    - cron: "0 16 * * *"
+  workflow_dispatch:
 
 jobs:
   run-bot:
