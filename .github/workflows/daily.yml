@@ -1,0 +1,27 @@
+name: Birthday Bot
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # runs daily (UTC time)
+  workflow_dispatch:       # lets you click "Run workflow" manually
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run birthday bot
+        env:
+          GROUPME_BOT_ID: ${{ secrets.GROUPME_BOT_ID }}
+        run: python send_groupme.py
