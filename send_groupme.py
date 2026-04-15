@@ -3,7 +3,7 @@ import requests
 
 BOT_ID = os.environ["GROUPME_BOT_ID"]
 
-message = "Good morning! Daily check-in reminder."
+message = "Text check-in message with github."
 
 response = requests.post(
     "https://api.groupme.com/v3/bots/post",
